@@ -101,7 +101,8 @@ function paint_clusters(month) {
             ['linear'],
             ['get', sum_month[month]],
             entries1,
-            '#ffe100',
+            '#afafb3',
+            // '#ffe100',
             entries2,
             colors[4],
             entries3,
@@ -219,6 +220,37 @@ function filterByDay(day) {
 
     // Set label to month
     document.getElementById('day').textContent = day + 1;
+        if (day >= 0 && day < 6) {
+            document.getElementById('event-1').style.display = "block";
+            document.getElementById('event-2').style.display = "none";
+            document.getElementById('event-3').style.display = "none";
+            document.getElementById('event-4').style.display = "none";
+            document.getElementById('event-5').style.display = "none";
+        } else if (day >= 6 && day < 11){
+            document.getElementById('event-1').style.display = "block";
+            document.getElementById('event-2').style.display = "block";
+            document.getElementById('event-3').style.display = "none";
+            document.getElementById('event-4').style.display = "none";
+            document.getElementById('event-5').style.display = "none";
+        } else if (day >= 11 && day < 15) {
+            document.getElementById('event-1').style.display = "block";
+            document.getElementById('event-2').style.display = "block";
+            document.getElementById('event-3').style.display = "block";
+            document.getElementById('event-4').style.display = "none";
+            document.getElementById('event-5').style.display = "none";
+        } else if (day >= 15 && day < 20) {
+            document.getElementById('event-1').style.display = "block";
+            document.getElementById('event-2').style.display = "block";
+            document.getElementById('event-3').style.display = "block";
+            document.getElementById('event-4').style.display = "block";
+            document.getElementById('event-5').style.display = "none";
+        } else if (day >= 20) {
+            document.getElementById('event-1').style.display = "block";
+            document.getElementById('event-2').style.display = "block";
+            document.getElementById('event-3').style.display = "block";
+            document.getElementById('event-4').style.display = "block";
+            document.getElementById('event-5').style.display = "block";
+        }
 };
 
 function sum_day(day) {

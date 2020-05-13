@@ -1,8 +1,11 @@
 {
   "name": "dsgn337-p4",
   "version": "1.0.0",
-  "description": "",
+  "description": "subway covid",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "csv2geojson": "^5.1.1",
     "express": "^4.17.1",
