@@ -13,10 +13,10 @@ body {
 .map-overlay {
     font: 12px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     position: absolute;
-    width: 25%;
+    width: 27%;
     top: 0;
     right: 3%;
-    padding: 10px;
+    padding: 7px;
 }
 
 .map-overlay .map-overlay-inner {
@@ -24,7 +24,7 @@ body {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .map-overlay .legend .bar {
@@ -61,6 +61,6 @@ body {
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-p #event-2, div #event-3, div #event-4, div #event-5 {
+p #event-2, p #event-3, p #event-4, p #event-5 {
     display: none;
 }
