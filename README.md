@@ -4,5 +4,7 @@ Subway station usage served as funnel points for massive amount of NYC subway ri
 
 Final visualization: https://subway-covid.herokuapp.com
 
+Turnstile data analysis: https://colab.research.google.com/drive/1wSY6uG7a9z3jDtLNLbCbBAzi-B10ip91?usp=sharing
+
 ## Notes
 Analysis and visualization done by Sydney Essex for DSGN337 Information Design and Visualization, Spring 2020.
