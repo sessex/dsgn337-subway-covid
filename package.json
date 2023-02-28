@@ -7,7 +7,7 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "csv2geojson": "^5.1.1",
+    "csv2geojson": "^5.1.2",
     "express": "^4.17.1",
     "mapbox-gl": "^1.10.0",
     "requirejs": "^2.3.6"
